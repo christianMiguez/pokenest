@@ -21,6 +21,13 @@ npm i -g @nestjs/cli
 
 ```
 docker-compose up -d
+
+```
+
+5. Fill DB using the seed endpoint
+
+```
+http://localhost:3000/API/V2/seed
 ```
 
 ## Stack
