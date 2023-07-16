@@ -21,10 +21,17 @@ npm i -g @nestjs/cli
 
 ```
 docker-compose up -d
-
 ```
 
-5. Fill DB using the seed endpoint
+5. Clone **.env.template**
+
+6. Execute the app:
+
+```
+yarn start:dev
+```
+
+7. Fill DB using the seed endpoint
 
 ```
 http://localhost:3000/API/V2/seed
