@@ -41,3 +41,13 @@ http://localhost:3000/API/V2/seed
 
 - MongoDB
 - Nest
+
+## Production Build
+
+1. Use correct .env.prod based on .env.template
+2. Fill .env.prod with correct values
+3. Create docker image:
+
+```
+ docker-compose -f docker-compose.prod.yaml --env-file .env.prod up --build
+```
