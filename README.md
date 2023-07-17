@@ -2,6 +2,15 @@
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
 </p>
 
+## Description
+
+NestJS API for a simple CRUD working with PokeAPI.
+
+- Get all pokemons
+- Get pokemon by id (can be id, no or name)
+- Update, create and delete.
+- Seed data: Once the app have been created, you can seed PokeAPI data.
+
 ## Instructions
 
 1. Clone repository
